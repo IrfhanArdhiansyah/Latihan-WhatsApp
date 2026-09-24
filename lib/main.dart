@@ -39,15 +39,15 @@ class _HomePageState extends State<HomePage> {
         ),
         body: TabBarView(
           children: [
-            Column(
+            ListView(
               children: [
                 Card(
                   elevation: 30,
                   child: ListTile(
                     leading: Icon(Icons.person),
                     title: Text("Irfhan"),
-                    subtitle: Text("Bro! Ngantuk ya mapel ini..."),
-                    trailing: Text("50", style: TextStyle(color: Colors.green)),
+                    subtitle: Text("Hai"),
+                    trailing: Text("5", style: TextStyle(color: Colors.green)),
                   ),
                 ),
                 Card(
@@ -56,12 +56,75 @@ class _HomePageState extends State<HomePage> {
                     leading: Icon(Icons.person),
                     title: Text("Azzam"),
                     subtitle: Text("Bro! Ngantuk ya mapel ini..."),
-                    trailing: Text("50", style: TextStyle(color: Colors.green)),
+                    trailing: Text("99+", style: TextStyle(color: Colors.green)),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Baim"),
+                    subtitle: Text("Hai"),
+                    trailing: Text("24", style: TextStyle(color: Colors.green)),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Marvel"),
+                    subtitle: Text("Hai"),
+                    trailing: Text("13", style: TextStyle(color: Colors.green)),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Karim"),
+                    subtitle: Text("Hai"),
+                    trailing: Text("8", style: TextStyle(color: Colors.green)),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Ari"),
+                    subtitle: Text("Hai"),
+                    trailing: Text("10", style: TextStyle(color: Colors.green)),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Dimas"),
+                    subtitle: Text("Hai"),
+                    trailing: Text("20", style: TextStyle(color: Colors.green)),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Fan"),
+                    subtitle: Text("Hai"),
+                    trailing: Text("5", style: TextStyle(color: Colors.green)),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Steven"),
+                    subtitle: Text("Hai"),
+                    trailing: Text("34", style: TextStyle(color: Colors.green)),
                   ),
                 ),
               ],
             ),
-            Column(
+            ListView(
               children: [
                 Card(
                   elevation: 30,
@@ -80,9 +143,81 @@ class _HomePageState extends State<HomePage> {
                     subtitle: Text("5 menit yang lalu"),
                   ),
                 ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Baim"),
+                    subtitle: Text("Kemarin 13.00"),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Marvel"),
+                    subtitle: Text("Kemarin 18.00"),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Karim"),
+                    subtitle: Text("Kemarin 20.00"),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Dimas"),
+                    subtitle: Text("Kemarin 21.00"),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Ari"),
+                    subtitle: Text("Kemarin 23.00"),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Fan"),
+                    subtitle: Text("10 menit yang lalu"),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Rasya"),
+                    subtitle: Text("15.00"),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Steven"),
+                    subtitle: Text("14.00"),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Calvin"),
+                    subtitle: Text("12.00"),
+                  ),
+                ),
               ],
             ),
-            Column(
+            ListView(
               children: [
                 Card(
                   elevation: 30,
@@ -98,7 +233,79 @@ class _HomePageState extends State<HomePage> {
                   child: ListTile(
                     leading: Icon(Icons.person),
                     title: Text("Azzam"),
-                    subtitle: Text("5 menit yang lalu"),
+                    subtitle: Text("15 September 13.00"),
+                    trailing: Icon(Icons.videocam_outlined),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Kariim"),
+                    subtitle: Text("20 oktober 20.00"),
+                    trailing: Icon(Icons.videocam_outlined),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Calvin"),
+                    subtitle: Text("23 September 12.00"),
+                    trailing: Icon(Icons.call),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Steven"),
+                    subtitle: Text("18 September 23.00"),
+                    trailing: Icon(Icons.call),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Rasya"),
+                    subtitle: Text("28 September 12.00"),
+                    trailing: Icon(Icons.call),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Ari"),
+                    subtitle: Text("12 September 09.00"),
+                    trailing: Icon(Icons.call),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Dimas"),
+                    subtitle: Text("19 September 20.00"),
+                    trailing: Icon(Icons.videocam_outlined),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Steven"),
+                    subtitle: Text("15 September 13.00"),
+                    trailing: Icon(Icons.call),
+                  ),
+                ),
+                Card(
+                  elevation: 30,
+                  child: ListTile(
+                    leading: Icon(Icons.person),
+                    title: Text("Azzam"),
+                    subtitle: Text("10 oktober 00.00"),
                     trailing: Icon(Icons.call),
                   ),
                 ),
