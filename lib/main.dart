@@ -137,6 +137,42 @@ class _HomePageState extends State<HomePage> {
                     elevation: 30,
                     child: ListTile(
                       leading: Icon(Icons.person),
+                      title: Text("Fan"),
+                      subtitle: Text("Hai"),
+                      trailing: Text("5", style: TextStyle(color: Colors.green)),
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsets.only(left: 15, right: 15),
+                  child: Card(
+                    elevation: 30,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Fan"),
+                      subtitle: Text("Hai"),
+                      trailing: Text("5", style: TextStyle(color: Colors.green)),
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsets.only(left: 15, right: 15),
+                  child: Card(
+                    elevation: 30,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Fan"),
+                      subtitle: Text("Hai"),
+                      trailing: Text("5", style: TextStyle(color: Colors.green)),
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsets.only(left: 15, right: 15),
+                  child: Card(
+                    elevation: 30,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
                       title: Text("Steven"),
                       subtitle: Text("Hai"),
                       trailing: Text("34", style: TextStyle(color: Colors.green)),
