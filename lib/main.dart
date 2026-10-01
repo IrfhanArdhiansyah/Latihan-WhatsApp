@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
       child: Scaffold(
         appBar: AppBar(
           title: Text("WhatsApp"),
-          backgroundColor: const Color.fromARGB(255, 144, 209, 69),
+          backgroundColor: Colors.green,
           bottom: TabBar(
             tabs: [
               Tab(icon: Icon(Icons.chat)),
