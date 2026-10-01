@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
       child: Scaffold(
         appBar: AppBar(
           title: Text("WhatsApp"),
-          backgroundColor: Colors.lightGreen,
+          backgroundColor: const Color.fromARGB(255, 144, 209, 69),
           bottom: TabBar(
             tabs: [
               Tab(icon: Icon(Icons.chat)),
@@ -41,25 +41,39 @@ class _HomePageState extends State<HomePage> {
           children: [
             ListView(
               children: [
-                Card(
-                  elevation: 30,
-                  child: ListTile(
-                    leading: Icon(Icons.person),
-                    title: Text("Irfhan"),
-                    subtitle: Text("Hai"),
-                    trailing: Text("5", style: TextStyle(color: Colors.green)),
+                Padding(
+                  padding: EdgeInsets.only(left: 15, right: 15),
+                  child: Card(
+                    elevation: 30,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Irfhan"),
+                      subtitle: Text("Hai"),
+                      trailing: Text(
+                        "5",
+                        style: TextStyle(color: Colors.green),
+                      ),
+                    ),
                   ),
                 ),
-                Card(
-                  elevation: 30,
-                  child: ListTile(
-                    leading: Icon(Icons.person),
-                    title: Text("Azzam"),
-                    subtitle: Text("Bro! Ngantuk ya mapel ini..."),
-                    trailing: Text("99+", style: TextStyle(color: Colors.green)),
+                Padding(
+                  padding: EdgeInsets.only(left: 15, right: 15),
+                  child: Card(
+                    elevation: 30,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Azzam"),
+                      subtitle: Text("Bro! Ngantuk ya mapel ini..."),
+                      trailing: Text(
+                        "99+",
+                        style: TextStyle(color: Colors.green),
+                      ),
+                    ),
                   ),
                 ),
-                Card(
+                Padding(
+                  padding: EdgeInsets.only(left: 15, right: 15),
+                  child: Card(
                   elevation: 30,
                   child: ListTile(
                     leading: Icon(Icons.person),
@@ -68,7 +82,10 @@ class _HomePageState extends State<HomePage> {
                     trailing: Text("24", style: TextStyle(color: Colors.green)),
                   ),
                 ),
-                Card(
+                ),
+                Padding(
+                  padding: EdgeInsets.only(left: 15, right: 15),
+                child: Card(
                   elevation: 30,
                   child: ListTile(
                     leading: Icon(Icons.person),
@@ -77,7 +94,10 @@ class _HomePageState extends State<HomePage> {
                     trailing: Text("13", style: TextStyle(color: Colors.green)),
                   ),
                 ),
-                Card(
+              ),
+              Padding(
+                  padding: EdgeInsets.only(left: 15, right: 15),
+                child: Card(
                   elevation: 30,
                   child: ListTile(
                     leading: Icon(Icons.person),
@@ -86,7 +106,10 @@ class _HomePageState extends State<HomePage> {
                     trailing: Text("8", style: TextStyle(color: Colors.green)),
                   ),
                 ),
-                Card(
+              ),
+               Padding(
+                  padding: EdgeInsets.only(left: 15, right: 15),
+                child: Card(
                   elevation: 30,
                   child: ListTile(
                     leading: Icon(Icons.person),
@@ -95,41 +118,52 @@ class _HomePageState extends State<HomePage> {
                     trailing: Text("10", style: TextStyle(color: Colors.green)),
                   ),
                 ),
-                Card(
-                  elevation: 30,
-                  child: ListTile(
-                    leading: Icon(Icons.person),
-                    title: Text("Dimas"),
-                    subtitle: Text("Hai"),
-                    trailing: Text("20", style: TextStyle(color: Colors.green)),
+              ),
+                Padding(
+                  padding: EdgeInsets.only(left: 15, right: 15),
+                  child: Card(
+                    elevation: 30,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Dimas"),
+                      subtitle: Text("Hai"),
+                      trailing: Text("20", style: TextStyle(color: Colors.green)),
+                    ),
                   ),
                 ),
-                Card(
-                  elevation: 30,
-                  child: ListTile(
-                    leading: Icon(Icons.person),
-                    title: Text("Fan"),
-                    subtitle: Text("Hai"),
-                    trailing: Text("5", style: TextStyle(color: Colors.green)),
+                Padding(
+                  padding: EdgeInsets.only(left: 15, right: 15),
+                  child: Card(
+                    elevation: 30,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Fan"),
+                      subtitle: Text("Hai"),
+                      trailing: Text("5", style: TextStyle(color: Colors.green)),
+                    ),
                   ),
                 ),
-                Card(
-                  elevation: 30,
-                  child: ListTile(
-                    leading: Icon(Icons.person),
-                    title: Text("Steven"),
-                    subtitle: Text("Hai"),
-                    trailing: Text("34", style: TextStyle(color: Colors.green)),
+                Padding(
+                  padding: EdgeInsets.only(left: 15, right: 15),
+                  child: Card(
+                    elevation: 30,
+                    child: ListTile(
+                      leading: Icon(Icons.person),
+                      title: Text("Steven"),
+                      subtitle: Text("Hai"),
+                      trailing: Text("34", style: TextStyle(color: Colors.green)),
+                    ),
                   ),
                 ),
               ],
             ),
             ListView(
+              padding: EdgeInsets.only(left: 15, right: 15),
               children: [
                 Card(
                   elevation: 30,
                   child: ListTile(
-                    leading: Icon(Icons.person, color: Colors.green,),
+                    leading: Icon(Icons.person, color: Colors.green),
                     title: Text("Status Saya"),
                     subtitle: Text("Tambahkan Status"),
                     trailing: Icon(Icons.add),
@@ -218,6 +252,7 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
             ListView(
+              padding: EdgeInsets.only(left: 15, right: 15),
               children: [
                 Card(
                   elevation: 30,
