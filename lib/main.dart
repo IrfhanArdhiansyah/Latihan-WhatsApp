@@ -10,7 +10,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: HomePage());
+    return MaterialApp(
+      home: HomePage(),
+      debugShowCheckedModeBanner: false,
+      );
   }
 }
 
@@ -121,3 +124,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
+
+
+// Depannya huruf besar / kapital = Widget
+// Depannya huruf kecil = properti
